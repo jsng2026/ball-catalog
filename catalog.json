@@ -1,0 +1,484 @@
+{
+  "version": 9,
+  "updatedAt": "2026-07-27T16:33:37Z",
+  "entries": [
+    {
+      "id": "uob-preferred-platinum-visa",
+      "issuer": "UOB",
+      "productName": "Preferred Platinum Visa",
+      "network": "visa",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "uob-preferred-platinum-visa.contactless",
+          "name": "4 mpd on contactless",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "contactless"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1110,
+          "currencyScope": "local"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government",
+        "insurance"
+      ],
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (UNI$)"
+    },
+    {
+      "id": "hsbc-revolution",
+      "issuer": "HSBC",
+      "productName": "Revolution",
+      "network": "visa",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "hsbc-revolution.online-contactless",
+          "name": "4 mpd online & contactless",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "contactless",
+            "online"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1000,
+          "currencyScope": "local"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government"
+      ],
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "KrisFlyer (HSBC Points)"
+    },
+    {
+      "id": "dbs-womans-world-card",
+      "issuer": "DBS",
+      "productName": "Woman's World Card",
+      "network": "mastercard",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "dbs-womans-world-card.online",
+          "name": "4 mpd online",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "online"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1500
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government"
+      ],
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (DBS Points)"
+    },
+    {
+      "id": "citi-rewards",
+      "issuer": "Citi",
+      "productName": "Rewards",
+      "network": "mastercard",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "citi-rewards.online",
+          "name": "4 mpd online (ex. travel)",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "online"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1000
+        },
+        {
+          "id": "citi-rewards.shopping",
+          "name": "4 mpd shopping",
+          "mccs": [],
+          "categories": [
+            "retailShopping"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1000
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government"
+      ],
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "Citi ThankYou"
+    },
+    {
+      "id": "dbs-altitude-visa",
+      "issuer": "DBS",
+      "productName": "Altitude Visa",
+      "network": "visa",
+      "baseMilesPerDollar": 1.2,
+      "earnRules": [
+        {
+          "id": "dbs-altitude-visa.online-travel",
+          "name": "5 mpd online travel bookings",
+          "mccs": [],
+          "categories": [
+            "travel"
+          ],
+          "channels": [
+            "online"
+          ],
+          "milesPerDollar": 5.0,
+          "monthlyCap": 5000
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyBaseMilesPerDollar": 2.2,
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "KrisFlyer (DBS Points)"
+    },
+    {
+      "id": "uob-prvi-miles-visa",
+      "issuer": "UOB",
+      "productName": "PRVI Miles Visa",
+      "network": "visa",
+      "baseMilesPerDollar": 1.4,
+      "earnRules": [],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyBaseMilesPerDollar": 2.4,
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (UNI$)"
+    },
+    {
+      "id": "ocbc-90n-mastercard",
+      "issuer": "OCBC",
+      "productName": "90°N Mastercard",
+      "network": "mastercard",
+      "baseMilesPerDollar": 1.3,
+      "earnRules": [],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyBaseMilesPerDollar": 2.1,
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "90°N Miles"
+    },
+    {
+      "id": "amex-krisflyer-ascend",
+      "issuer": "Amex",
+      "productName": "KrisFlyer Ascend",
+      "network": "amex",
+      "baseMilesPerDollar": 1.2,
+      "earnRules": [
+        {
+          "id": "amex-krisflyer-ascend.dining-groceries",
+          "name": "2 mpd dining & groceries",
+          "mccs": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 2.0,
+          "currencyScope": "local"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyBaseMilesPerDollar": 2.0,
+      "fcyFeePercent": 0.025,
+      "milesProgram": "KrisFlyer"
+    },
+    {
+      "id": "citi-premiermiles-visa",
+      "issuer": "Citi",
+      "productName": "PremierMiles Card",
+      "network": "visa",
+      "baseMilesPerDollar": 1.2,
+      "earnRules": [],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government",
+        "education",
+        "insurance",
+        "utilities"
+      ],
+      "fcyBaseMilesPerDollar": 2.2,
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "KrisFlyer (Citi Miles)"
+    },
+    {
+      "id": "ocbc-rewards-card",
+      "issuer": "OCBC",
+      "productName": "Rewards Card",
+      "network": "mastercard",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "ocbc-rewards-card.shopping",
+          "name": "4 mpd on shopping (department stores, online platforms, Watsons)",
+          "mccs": [],
+          "categories": [
+            "onlineShopping",
+            "retailShopping"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 1110
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "education",
+        "insurance",
+        "government"
+      ],
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (OCBC$)"
+    },
+    {
+      "id": "hsbc-travelone-visa",
+      "issuer": "HSBC",
+      "productName": "TravelOne Credit Card",
+      "network": "visa",
+      "baseMilesPerDollar": 1.2,
+      "earnRules": [],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyBaseMilesPerDollar": 2.4,
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "HSBC Reward Points"
+    },
+    {
+      "id": "maybank-horizon-visa-signature",
+      "issuer": "Maybank",
+      "productName": "Horizon Visa Signature Card",
+      "network": "visa",
+      "baseMilesPerDollar": 1.2,
+      "earnRules": [
+        {
+          "id": "maybank-horizon-visa-signature.fcy-bonus",
+          "name": "2.8 mpd on foreign-currency spend (min $800/mo card spend)",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 2.8,
+          "minMonthlySpend": 800,
+          "currencyScope": "foreign"
+        },
+        {
+          "id": "maybank-horizon-visa-signature.sgd-air-tickets",
+          "name": "2.8 mpd on SGD air ticket spend (min $800/mo card spend)",
+          "mccs": [],
+          "categories": [
+            "travel"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 2.8,
+          "monthlyCap": 10000,
+          "minMonthlySpend": 800,
+          "currencyScope": "local"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "government",
+        "utilities"
+      ],
+      "fcyBaseMilesPerDollar": 1.2,
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (TREATS Points)"
+    },
+    {
+      "id": "scb-visa-infinite",
+      "issuer": "Standard Chartered",
+      "productName": "Visa Infinite Card",
+      "network": "visa",
+      "baseMilesPerDollar": 1.0,
+      "earnRules": [
+        {
+          "id": "scb-visa-infinite.local-threshold",
+          "name": "1.4 mpd on local spend (once $2,000 statement spend reached)",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 1.4,
+          "minMonthlySpend": 2000,
+          "currencyScope": "local"
+        },
+        {
+          "id": "scb-visa-infinite.foreign-threshold",
+          "name": "3 mpd on foreign-currency spend (once $2,000 statement spend reached)",
+          "mccs": [],
+          "categories": [],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 3.0,
+          "minMonthlySpend": 2000,
+          "currencyScope": "foreign"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "education",
+        "government",
+        "insurance",
+        "utilities"
+      ],
+      "fcyFeePercent": 0.035,
+      "milesProgram": "KrisFlyer (360° Rewards)"
+    },
+    {
+      "id": "boc-elite-miles-world-mastercard",
+      "issuer": "Bank of China",
+      "productName": "Elite Miles World Mastercard",
+      "network": "mastercard",
+      "baseMilesPerDollar": 1.4,
+      "earnRules": [],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "education",
+        "government",
+        "insurance",
+        "utilities"
+      ],
+      "fcyBaseMilesPerDollar": 2.8,
+      "fcyFeePercent": 0.03,
+      "milesProgram": "KrisFlyer (BOC Points)"
+    },
+    {
+      "id": "amex-krisflyer",
+      "issuer": "Amex",
+      "productName": "Singapore Airlines KrisFlyer Credit Card",
+      "network": "amex",
+      "baseMilesPerDollar": 1.1,
+      "earnRules": [
+        {
+          "id": "amex-krisflyer.sia-scoot",
+          "name": "2 mpd on Singapore Airlines / Scoot / KrisShop / Pelago bookings",
+          "mccs": [],
+          "categories": [
+            "travel"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 2.0
+        },
+        {
+          "id": "amex-krisflyer.grab",
+          "name": "2 mpd on Grab (first $200/mo)",
+          "mccs": [],
+          "categories": [
+            "transport"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 2.0,
+          "monthlyCap": 200,
+          "currencyScope": "local"
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [
+        "education",
+        "government",
+        "insurance"
+      ],
+      "fcyFeePercent": 0.0325,
+      "milesProgram": "KrisFlyer"
+    },
+    {
+      "id": "uob-ladys-solitaire-card",
+      "issuer": "UOB",
+      "productName": "Lady's Solitaire Card",
+      "network": "mastercard",
+      "baseMilesPerDollar": 0.4,
+      "earnRules": [
+        {
+          "id": "uob-ladys-solitaire-card.chosen-categories",
+          "name": "4 mpd on 2 chosen categories (choose in Edit Card) — real card offers Fashion/Dining/Travel/Beauty & Wellness/Family/Transport/Entertainment; Beauty & Wellness and Family aren't representable in this app's category model",
+          "mccs": [],
+          "categories": [
+            "dining",
+            "travel",
+            "transport",
+            "entertainment",
+            "retailShopping"
+          ],
+          "channels": [
+            "any"
+          ],
+          "milesPerDollar": 4.0,
+          "monthlyCap": 2000,
+          "categoryChoiceLimit": 2
+        }
+      ],
+      "excludedMCCs": [],
+      "excludedCategories": [],
+      "fcyFeePercent": 0.0325,
+      "earnBlockSize": 5,
+      "milesProgram": "KrisFlyer (UNI$)"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "sample.krisflyer-transfer-bonus",
+      "title": "Illustrative: 15% KrisFlyer transfer bonus",
+      "details": "Sample promotion — replace with real offers. Convert bank points to KrisFlyer with a 15% bonus until the end of the quarter."
+    },
+    {
+      "id": "sample.ascend-signup",
+      "title": "Illustrative: Ascend sign-up bonus",
+      "details": "Sample promotion — spend $3,000 in the first 3 months for bonus miles. Track it as a spend goal on the card.",
+      "catalogID": "amex-krisflyer-ascend"
+    }
+  ],
+  "tips": [
+    {
+      "id": "caps",
+      "title": "Why caps change the answer",
+      "body": "Bonus rates come with monthly caps (often $1,000–$1,500). Once a cap is filled, spend earns the base rate — usually 0.4 mpd. Ball tracks your caps and reroutes you to the next-best card automatically."
+    },
+    {
+      "id": "overseas",
+      "title": "Overseas isn't what it looks like",
+      "body": "Overseas spend usually pays a foreign transaction fee of ~3.25%. A 4 mpd card that only earns locally can lose to a 2.4 mpd overseas card once the fee and FCY rates are counted. Ball ranks by net value, not raw miles."
+    },
+    {
+      "id": "blocks",
+      "title": "The $5-block trap",
+      "body": "Some cards award points per $5 block — a $4.90 kopi earns nothing. Small payments belong on per-dollar cards; Ball routes them there."
+    }
+  ]
+}
